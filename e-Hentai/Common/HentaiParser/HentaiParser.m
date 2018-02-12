@@ -43,7 +43,14 @@
 	    else {
 	        //這段是從 e hentai 的網頁 parse 列表
 	        TFHpple *xpathParser = [[TFHpple alloc] initWithHTMLData:data];
-	        NSArray *photoURL = [xpathParser searchWithXPathQuery:@"//div [@class='it5']//a"];
+//            NSArray *photoURL = [xpathParser searchWithXPathQuery:@"//div [@class='it5']//a"];
+            NSArray *photoURL;
+            if (isForExHentai) {
+                photoURL = [xpathParser searchWithXPathQuery:@"//div [@class='id3']//a"];
+            }
+            else {
+                photoURL = [xpathParser searchWithXPathQuery:@"//div [@class='it5']//a"];
+            }
             
             //如果 parse 有結果, 才做 request api 的動作, 反之 callback HentaiParserStatusParseFail
             if ([photoURL count]) {
@@ -108,7 +115,14 @@
 		}
 	    else {
 	        TFHpple *xpathParser = [[TFHpple alloc] initWithHTMLData:data];
-	        NSArray *pageURL  = [xpathParser searchWithXPathQuery:@"//div [@class='gdtm']//a"];
+            NSArray *pageURL;
+            if ([newURLString rangeOfString:@"exhentai"].length > 0) {
+                pageURL  = [xpathParser searchWithXPathQuery:@"//div [@class='gdtl']//a"];
+            }
+            else {
+                pageURL  = [xpathParser searchWithXPathQuery:@"//div [@class='gdtm']//a"];
+            }
+//            NSArray *pageURL = [xpathParser searchWithXPathQuery:@"//div [@class='gdtm']//a"];
             
             //如果 parse 有結果, 才做 request api 的動作, 反之 callback HentaiParserStatusParseFail
             if ([pageURL count]) {

@@ -1068,7 +1068,7 @@
 				ORGANIZATIONNAME = ChilunChen;
 				TargetAttributes = {
 					0199268419ADDB83009F814B = {
-						DevelopmentTeam = XLP7NJ2T65;
+						DevelopmentTeam = 6JSL3X52E8;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1444,7 +1444,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = XLP7NJ2T65;
+				DEVELOPMENT_TEAM = 6JSL3X52E8;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "e-Hentai/e-Hentai-Prefix.pch";
@@ -1475,7 +1475,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = XLP7NJ2T65;
+				DEVELOPMENT_TEAM = 6JSL3X52E8;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "e-Hentai/e-Hentai-Prefix.pch";

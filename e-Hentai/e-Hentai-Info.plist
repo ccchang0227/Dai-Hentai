@@ -64,5 +64,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>開啟背景下載的黑魔法~ O3&lt;</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>開啟背景下載的黑魔法~ O3&lt;</string>
 </dict>
 </plist>

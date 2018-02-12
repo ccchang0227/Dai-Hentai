@@ -17,7 +17,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>3.1</string>
 	<key>CFBundleVersion</key>
-	<string>20180210</string>
+	<string>20180213</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -25,6 +25,12 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>開啟背景下載的黑魔法~ O3&lt;</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>開啟背景下載的黑魔法~ O3&lt;</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>開啟背景下載的黑魔法~ O3&lt;</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string></string>
 	<key>NSPhotoLibraryUsageDescription</key>

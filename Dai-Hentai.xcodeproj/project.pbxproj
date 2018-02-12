@@ -639,7 +639,7 @@
 				TargetAttributes = {
 					1C1AD02E1E49B79800544217 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = W4PBB7Y8TV;
+						DevelopmentTeam = 6JSL3X52E8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -931,7 +931,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W4PBB7Y8TV;
+				DEVELOPMENT_TEAM = 6JSL3X52E8;
 				INFOPLIST_FILE = "Dai-Hentai/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -948,7 +948,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W4PBB7Y8TV;
+				DEVELOPMENT_TEAM = 6JSL3X52E8;
 				INFOPLIST_FILE = "Dai-Hentai/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
